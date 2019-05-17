@@ -25,7 +25,8 @@ a:hover {
 }
 
 a:hover::after {
-  animation: anchor-underline 2s cubic-bezier(0,.5,0,1) infinite;
+  /* animation: anchor-underline 2s cubic-bezier(0,.5,0,1); */
+  right: 0;
   border-color: #457DFB;
 }
 
